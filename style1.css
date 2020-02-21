@@ -1,0 +1,48 @@
+/*Nadpisanie wartości arkusza layout.css żeby strony oprocz głownej się nie rozjezdzały*/
+#header,
+#container,
+#footer,
+#copyright {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.one_quarter {
+    width: 23.43%;
+}
+
+.two_quarter {
+    width: 49%;
+}
+
+.three_quarter {
+    width: 74.5%;
+}
+
+.four_quarter {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    clear: both;
+}
+
+.one_third {
+    width: 31.25%;
+}
+
+.two_third {
+    width: 65.62%;
+}
+
+.three_third {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    clear: both;
+}
+
+#container #homepage #intro article figure figcaption {
+    float: left;
+    width: 47.91%;
+}
